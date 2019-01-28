@@ -1,0 +1,550 @@
+
+@media only screen and (max-width : 1200px)
+	
+	.nav ul li
+		margin-right: 30px
+	
+	.program__item
+		width: 48%
+
+	.why__content
+		margin-left: 0
+
+
+	.question .active .block__header span,
+	.question .block__header span
+		right: -55px
+	
+	.reviews--page
+		padding-bottom: 50px
+
+		&__content
+			margin-bottom: 40px
+
+	.news--page .news__list_item
+		max-height: 300px
+
+
+@media only screen and (max-width : 992px)
+	
+	.article
+		padding: 40px 0
+
+	.reviews--page__content_item
+		flex-wrap: wrap
+
+	.crumbs
+		padding-top: 120px
+
+	h2
+		font-size: 30px
+
+	.header
+		position: fixed
+		top: 0
+		right: 0
+		left: 0
+		z-index: 1000
+		box-shadow: 0 1px 2px rgba($text, .2)
+
+		&__logo
+			img
+				width: 300px
+
+		&__block
+
+			.header__container
+				padding-right: 70px
+
+		&__info
+			font-size: 12px
+			padding: 5px 0
+
+			img
+				height: 15px	
+				margin-right: 5px
+
+		.btn
+			max-width: 250px
+
+	.hero
+		padding-bottom: 80px
+
+	.nav
+		position: fixed
+		display: block
+		width: 320px
+		height: 100%
+		flex-direction: column
+		right: -100%
+		left: auto
+		top: 107px
+		z-index: -1
+		transition: all .6s
+		z-index: 1000
+		background: #fff
+		overflow: auto
+		padding-bottom: 120px
+
+		.btn
+			display: block
+
+		ul
+			display: flex
+			flex-direction: column
+			justify-content: center
+			margin-top: 40px
+			margin-left: 40px
+
+			li
+				margin: 0
+				margin-bottom: 10px
+
+			a
+				color: $text
+
+				&:hover,
+				&:focus
+					color: $text
+		
+		&--menu
+			right: 0
+
+	.hamburger
+		display: block
+
+	.advantages
+		padding-bottom: 0
+
+		h2
+			margin-bottom: 45px
+
+		&__list
+			justify-content: space-around
+
+		&__item
+			width: 30%
+
+	.consultation, .program, .why__content, .reviews, .news
+		padding: 40px 0
+	
+	.consultation
+		&__bg
+			display: none
+
+		br
+			display: none
+
+	.program
+		&__decor
+			margin-bottom: 15px
+
+		&__item
+			&:focus,
+			&:hover
+				.program__info
+					padding-top: 50px
+
+			&_bg
+				height: 330px
+
+		&__info
+			padding: 17px
+
+			p, h3
+				margin-bottom: 20px
+
+	.why
+		&__decor
+			margin-bottom: 20px
+
+		p
+			margin-bottom: 40px
+	
+
+	.reviews
+		ul
+			a
+				padding: 10px
+
+			p
+				width: 80%
+
+			li
+				margin-bottom: 10px
+				&:last-child
+					margin-bottom: 15px
+		
+		.btn
+			margin-top: 0
+			margin-bottom: 15px
+
+		&__decor
+			margin-bottom: 20px
+	
+	.news
+
+		&::before
+			display: none
+
+		.btn--transparent
+			margin-bottom: 20px
+
+		&__list
+			margin-bottom: 15px
+
+	.footer
+		&__logo
+			img
+				width: 300px
+
+	.footer__item
+		width: 50%
+
+		&:first-child
+			width: 50%
+
+	.news--page .news__list_item
+		&:focus,
+		&:hover
+			.btn
+				margin-bottom: 30px
+
+	.question
+		padding-top: 20px
+
+		.btn--accent
+			margin-right: auto
+
+		.block
+			width: 100%
+
+			&__header span
+				right: -30px
+
+		.active .block__header span
+			right: -30px
+
+		.btn--accent
+			margin-top: 30px
+
+		&__decor
+			margin-bottom: 30px
+
+		.block__content
+			margin-top: 20px
+
+	.about
+		padding-bottom: 40px
+
+	.news--page .news__list_item
+		max-height: 220px
+
+
+@media only screen and (max-width : 767px)
+
+	.reviews--page
+		&__content
+			padding: 0
+
+			&_text
+				width: 50%
+				margin-bottom: 15px
+
+			&_item
+				padding: 15px
+				align-items: flex-start
+
+				img
+					margin-right: 15px
+					width: 160px
+					height: 160px
+
+		&__decor
+			margin-bottom: 10px
+
+	.crumbs
+		padding-top: 100px
+
+	.about__title
+		margin: 15px 0 !important
+
+	.header
+		&__info
+			display: none
+
+		&__block
+			.btn
+				display: none
+
+			.header__info_search,
+			.header__info_lang
+				display: block
+				background-color: transparent
+	
+	.nav
+		top: 69px
+
+		ul
+			margin: 30px
+
+	.hero
+		p
+			font-size: 16px
+	
+	.advantages svg
+		margin-bottom: 15px
+
+	.program
+		&__list
+			flex-wrap: wrap
+
+		&__item
+			width: 100%
+			margin-bottom: 20px
+
+			&_bg
+				max-height: 450px
+				height: 100%
+
+	.reviews iframe
+		height: 360px
+
+	.news
+		h2, &__decor
+			margin-bottom: 15px
+
+
+	.contacts
+		&__info
+			position: relative
+			top: 0
+
+		&__map
+			height: 350px
+	
+		&__container
+			padding: 20px 0
+
+		&__info
+			p, a
+				margin-top: 0
+
+			&_img
+				width: 40px
+				height: 40px
+				margin-bottom: 5px
+
+				img
+					width: 40%
+
+	.footer
+		&__container
+			flex-direction: column
+
+		&__item
+			width: 100%
+			&:nth-child(1)
+				width: 100%
+				margin-bottom: 15px
+
+	.news__list_item
+		width: 100%
+		height: auto
+
+		&:nth-child(3n+1)
+			width: 100%
+
+	.news--page
+		padding-top: 20px
+
+		.news__decor
+			margin-bottom: 20px
+
+		.news__list
+			margin-bottom: 30px
+	
+	.pagination
+		padding-bottom: 0
+	
+	.contacts--form
+		padding: 40px 0
+
+		&__form
+			flex-direction: column
+
+		&__col
+			width: 100%
+
+	.contacts--map
+
+		.contacts__map
+			height: 400px
+	
+	.contacts--page
+		padding-bottom: 40px
+		h2
+			margin-bottom: 10px
+
+		&__decor
+			margin-bottom: 15px
+	
+	.news--page .news__list_item
+		max-height: 100%
+
+@media only screen and (max-width : 576px)
+	
+	.article .q
+		margin: 20px 30px
+
+	h1
+		font-size: 32px
+	
+	h2
+		font-size: 24px
+		img
+			margin-left: 0
+
+	.hero
+		padding-bottom: 40px
+	
+	.advantages
+		h2
+			margin-bottom: 20px
+
+		&__item
+			margin-bottom: 20px
+			width: 45%
+
+	.program
+		&__item
+			&:focus,
+			&:hover
+				.program__info
+					padding-top: 110px
+	
+	.news
+
+		.block
+			margin-left: 0
+			margin-right: 10px
+
+
+@media only screen and (max-width : 480px)
+	.reviews--page__content
+		&_item
+			flex-direction: column
+			align-items: center
+
+			img
+				margin-bottom: 15px
+				margin-right: 0
+
+		&_text
+			width: 100%
+			line-height: 1.3
+			text-align: center
+
+
+	.btn
+		height: 30px
+		line-height: 30px
+		font-size: 12px
+
+	.header
+		&__logo img
+			width: 170px
+
+	.nav
+		top: 39px
+
+	.consultation p
+		font-size: 14px
+
+	.hero
+		padding-top: 100px
+
+		&__logo
+			width: 70%
+
+		p
+			br
+				display: none
+
+	h1
+		font-size: 28px
+
+	h2
+		font-size: 20px
+		img
+			width: 70%
+
+	.news__list_item
+		width: 100%
+		&:nth-child(3n+1)
+			width: 100%	
+	
+	.reviews iframe
+		height: 300px
+	
+	.advantages
+		&__item
+			width: 100%
+
+		h3
+			margin-bottom: 15px
+
+	.program
+		&__item
+			br
+				display: none
+
+			&:focus,
+			&:hover
+				.program__info
+					padding-top: 30px
+
+
+			&_decor
+				display: none
+
+
+		&__info
+			top: 73%
+	
+	.contacts__info_block
+		padding: 15px
+	
+	.contacts__info_item:last-child
+		height: auto
+
+	.crumbs
+		padding-top: 60px
+
+	.news--page
+		padding-top: 0
+	
+	.footer__up
+		width: 30px
+		height: 30px
+
+	.pagination li
+		width: 25px
+		height: 25px
+		line-height: 25px
+		font-size: 12px
+
+		a
+			width: 25px
+			height: 25px	
+
+	.contacts__info .btn
+		line-height: 35px !important
+
+
+	.footer .btn
+		margin-right: auto
+
+
+
+

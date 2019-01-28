@@ -1,0 +1,107 @@
+@import "fonts"
+
+
+//----------------------fonts---------------------
+$fonts: 'Montserrat', sans-serif
+$fonts-title: 'IBM Plex Serif', serif
+
+//---------------------end-fonts---------------------
+
+//----------------------color---------------------
+$accent: #a9a9f5
+$text: #3b3736
+$bg: #dbd5d5
+$btn: #ff92d2
+$title: #7171a4
+
+//---------------------end-color---------------------
+
+body
+	overflow-x: hidden
+	position: relative
+	min-width: 320px
+	font-family: $fonts
+	font-size: 14px
+	color: $text
+	line-height: 1.75
+	font-weight: 400
+	z-index: 1
+
+::selection
+	background-color: $accent
+	color: #fff
+
+a, div, ul, li, input, textarea
+	&:hover,
+	&:focus
+		outline: none
+
+h1, h2, h3, h4, h5, h6
+	font-weight: 700
+	line-height: 1.1
+	margin: 0
+	padding: 0
+	font-family: $fonts-title
+
+ul
+	margin: 0
+	padding: 0
+	list-style-type: none
+
+i
+	font-style: normal
+	font-size: 16px
+	color: #fff
+
+input, textarea
+	border: none
+	border-radius: 0
+	outline: none
+	box-shadow: none
+	-webkit-appearance: none
+	height: 50px
+	background-color: #ffffff
+	width: 100%
+	padding: 0 25px
+	
+	&:focus:required:invalid
+		border-color: none
+		outline: none
+		box-shadow: none
+		-webkit-appearance: none
+
+	&:required:valid
+		border-color: none
+		outline: none
+		box-shadow: none
+		-webkit-appearance: none
+
+	&::placeholder
+		color: #c7c7c7
+		font-size: 14px
+		line-height: 50px
+
+textarea
+	resize: none
+	height: 100%
+	min-height: 150px
+
+b, strong
+	font-weight: 700
+
+p
+	margin: 0
+	padding: 0
+
+a,
+a:focus,
+a:hover
+	outline: none
+	text-decoration: none
+
+@import "_base/preloader"
+@import "_base/animation"
+@import "_base/btn"
+@import "_base/form"
+@import "_base/modal"
+@import "_base/hamburger"
